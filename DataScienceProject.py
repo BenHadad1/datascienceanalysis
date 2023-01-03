@@ -1,3 +1,5 @@
+import numpy as np 
+import pandas as pd
 def OpenData():
   with open("./data.csv", "r") as file:
     csvreader = csv.reader(file)
@@ -140,4 +142,6 @@ import csv
 from matplotlib import pyplot as plt
 import statistics
 import scipy
+import numpy
+import pandas
 MainProgram()
